@@ -3,7 +3,9 @@ import { FooterStyle } from './style'
 const Footer = () => {
   return(
     <FooterStyle>
-      <p>Rodapé</p>
+      <div className='container'>
+        <p>Rodapé</p>
+      </div>
     </FooterStyle>
   )
 }
