@@ -13,15 +13,23 @@ export const HeaderStyles = styled.header`
   }
 
   .link-content{
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 
     a {
       font-family: 'Roboto', sans-serif;
+      transition: 3s;
       text-decoration: none;
-      color: '#fff';
-      background-color: "#79aa09";
-      justify-content: center;
-      align-items: center;
+      color: #fff;
+      background-color: #79aa09;
+      padding: 12px;
+      border-radius: 5px;
+    }
+    a:hover{
+      background-color: #fff;
+      color: #79aa09;
     }
   }
 `
