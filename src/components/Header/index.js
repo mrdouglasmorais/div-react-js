@@ -11,7 +11,7 @@ const Header  = () => {
         <img src={Logo} alt="logo rick and morty"/>
       </div>
       <div className='link-content'>
-        <Link to="/">Home</Link>
+        <Link to="/">Personagens</Link>
         <Link to="/listagem">Listagem</Link>
         <Link to="/contato">Contato</Link>
       </div>
