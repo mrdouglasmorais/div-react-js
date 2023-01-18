@@ -7,6 +7,10 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3 {
   font-family: 'Rubik 80s Fade', cursive;
 }
